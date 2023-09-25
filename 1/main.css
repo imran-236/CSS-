@@ -1,0 +1,25 @@
+body {
+    background: white;
+}
+
+
+ /* EX 03 */
+    .center{
+         border: 1px solid;
+         height: 500px;
+       display: flex;
+     }
+
+     .center div{
+         flex-direction: column;
+         height: 200px;
+         width: 200px;
+         border: 1px solid;
+         padding: 12px;
+         margin: 12px;
+         flex: 1;
+     }
+     .end{
+         align-self: flex-end ;
+
+     }
