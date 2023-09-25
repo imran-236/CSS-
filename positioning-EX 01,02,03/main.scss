@@ -1,0 +1,47 @@
+body {
+    background: white;
+}
+
+
+// positioning EX 01
+
+.position{
+    position: relative;
+}
+.superscript{
+    position: absolute;
+    font-size: 1em;
+    top: -4px;
+    left: 18%;
+}
+
+// positioning EX 02
+
+section{
+    height: 250px;
+    width: 200px;
+    border: 1px solid;
+    position: relative;
+    img{
+
+   width: 200px;
+        height: 200px;
+    }
+   p{
+    margin: 0;
+    font-size: 12px;
+   }
+
+   // New text using position absolute over image 
+   // positioning EX 03
+   .New{
+    background: red;
+    position: absolute;
+    top: 4%;
+    left: 2%;
+   }
+}
+
+
+
+

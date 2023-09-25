@@ -1,0 +1,23 @@
+body {
+  background: white;
+}
+
+ /* EX 04 and 05 */
+
+.parent {
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  display: flex;
+  border: 1px solid;
+  padding: 12px;
+  max-width: 200px;
+  max-height: 200px;
+  margin: 12px;
+  flex-direction: column;
+}
+.card .btn {
+  margin-top: auto;
+}
